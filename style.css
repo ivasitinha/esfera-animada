@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .esfera {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* Cor inicial azul com efeito de profundidade */
+    background: radial-gradient(circle at 70px 70px, #3498db, #000);
+    transition: background 0.5s ease; /* Transição suave para a nova cor */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
